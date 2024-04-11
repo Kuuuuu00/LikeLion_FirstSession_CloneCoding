@@ -1,0 +1,210 @@
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    top: 0;
+    width: 100%;
+    height: 66px;
+    background-color: white;
+    margin: 15px;
+}
+
+.techit_logo{
+    width: 150px;
+    height: 60px;
+    background-color: white;
+    border-style: none;
+}
+
+.menu_line{
+  color:rgb(113, 115, 115);
+  margin: 0px 10px;
+  align-items: end;
+  padding-top: 15px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu_btn {
+    background-color: white;
+    border-style: none;
+    font-weight: 600;
+    font-size: 16px;
+    margin : 0px 30px;
+}
+
+.login_btn {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    border-style: none;
+    background-color: white;
+    color: rgb(107, 107, 107);
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 20px;
+}
+
+.secret_event{
+    width: 100%;
+    height: 450px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.school{
+    display:flex;
+    width: 75%;
+    justify-content: center;
+    flex-direction: column;
+    margin : 50px auto;
+    text-align: left;
+
+}
+
+.S_title{
+    font-size: medium;
+    color: rgb(231, 131, 18);
+    font-weight: 600;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+
+.B_title{
+    font-size: x-large;
+    color: black;
+    font-weight: bold;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+}
+
+.choose{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image_box{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    text-align: left;
+    align-items: center;
+    margin: 10px;
+}
+
+.bootcamp{
+    width: 280px;
+    height: 213px;
+    border-radius: 10%;
+    margin: 10px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+}
+
+.recruit{
+    display: flex;
+    width: 50px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 7px;
+    font-weight: 600;
+}
+
+.imgtitle{
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+}
+
+
+.imginfo{
+    color: black;
+    line-height: 150%;
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.date{
+    font-size: 15px;
+    color: rgb(136, 136, 136);
+    margin: 10px 0;
+}
+
+.apply{
+    display: flex;
+    width: 90px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: seagreen;
+    border: 1px solid seagreen;
+    border-radius: 5px;
+    padding: 7px;
+    font-weight: 600;
+}
+
+.schedule_select{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid rgb(174, 174, 174); 
+}
+
+.class_select{
+    color: rgb(243, 145, 40);
+    border-bottom: 2px solid rgb(243, 145, 40);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 38px;
+    padding-left: 1.25rem;
+}
+
+.month_select{
+    color: rgb(132, 132, 132);
+    font-size: 20px;
+    line-height: 38px;
+    padding-left: 1.25rem;
+}
+
+.class_interest{
+    width: 100%;
+    height: 105px;
+    margin-top: 24px;
+    padding: 24px;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+.class_interest> div{
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    color: black;
+    padding: 8px 13px;
+}
